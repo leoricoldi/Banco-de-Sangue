@@ -7,7 +7,7 @@ O objetivo é criar uma página leve, moderna e totalmente estruturada com boas 
 
 ## 🌐 Demonstração
 
-O site está disponível online através do [GitHub Pages](https://leoricoldi.github.io/Banco-de-Sangue/).
+O site está disponível online através do [GitHub Pages](https://leoricoldi.github.io/Banco-de-Sangue).
 
 - O site é responsivo, moderno para focar a atenção do usuário no conteúdo e nos projetos.
 
@@ -29,7 +29,7 @@ Caso deseje inspecionar ou contribuir com o código-fonte deste portfólio, siga
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/eduduf/Banco-de-Sangue.git
+   git clone https://github.com/leoricoldi/Banco-de-Sangue.git
 
 2. **Navegue até o diretório:**
    ```bash
