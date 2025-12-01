@@ -1,113 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Banco de Sangue</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
-<div class="topo">
-    <div class="topo-esquerda">
+  <header>
+    <div class="topo">
+      <div class="topo-esquerda">
         <img src="img/logo.png" alt="Logo">
         <div class="topo-texto">
-            <h1>BANCO DE SANGUE LINS</h1>
+          <h1>BANCO DE SANGUE LINS</h1>
         </div>
-    </div>
+      </div>
 
-    <div class="topo-direita">
+      <div class="topo-direita">
         <input type="text" placeholder="O que você procura?">
-        
+
+      </div>
+      <input type="checkbox" id="menu2">
+      <label for="menu2" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+      <div class="mobile-menu">
+        <a href="index.html">Início</a>
+        <a href="Noticias.html">Notícias</a>
+        <a href="estatisticas.html">Estatísticas</a>
+        <a href="estoque.html">Estoque</a>
+        <a href="contato.html">Contato</a>
+        <a href="doar.html">Como Doar</a>
+        <a href="login.html">Login/Cadastrar</a>
+      </div>
     </div>
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="hamburger">
-    <div></div>
-    <div></div>
-    <div></div>
-</label>
-<div class="mobile-menu">
-  <a href="index.html">Início</a>
-  <a href="Noticias.html">Notícias</a>
-  <a href="estatisticas.html">Estatísticas</a>
-  <a href="estoque.html">Estoque</a>
-  <a href="contato.html">Contato</a>
-  <a href="doar.html">Como Doar</a>
-  <a href="login.html">Login/Cadastrar</a>
-</div>
-</div>
 
-<div class="menu">
-  <a href="index.html">Início</a>
-  <a href="Noticias.html">Notícias</a>
-  <a href="estatisticas.html">Estatísticas</a>
-  <a href="estoque.html">Estoque</a>
-  <a href="contato.html">Contato</a>
-  <a href="doar.html">Como Doar</a>
-  <a href="login.html">Login/Cadastrar</a>
-</div>
-
-</header>
-
-<main class="conteudo-centro">
-  <section class="estatisticas">
-    <div class="box-est2">
-      <h1>ESTOQUE</h1>
-      <h3>ENTRADAS DE BOLSA DE SANGUE AO LONGO DO MÊS</h3>
-      <form action="enviar.php" method="post">
-    <label>Mês de Referencia:</label><br>
-    <select>
-      <option value="Janeiro">Janeiro</option>
-      <option value="Fevereiro">Fevereiro</option>
-      <option value="Março">Março</option>
-      <option value="Abril">Abril</option>
-      <option value="Maio">Maio</option>
-      <option value="Junho">Junho</option>
-      <option value="Julho">Julho</option>
-      <option value="Agosto">Agosto</option>
-      <option value="Setembro">Setembro</option>
-      <option value="Outubro">Outubro</option>
-      <option value="Novembro">Novembro</option>
-    </select>
-    </form>
+    <div class="menu">
+      <a href="index.html">Início</a>
+      <a href="Noticias.html">Notícias</a>
+      <a href="estatisticas.html">Estatísticas</a>
+      <a href="estoque.html">Estoque</a>
+      <a href="contato.html">Contato</a>
+      <a href="doar.html">Como Doar</a>
+      <a href="login.html">Login/Cadastrar</a>
     </div>
+
+  </header>
+
+  <main class="conteudo-centro">
+    <section class="estatisticas">
+      <div class="box-est2">
+        <h1>ESTOQUE</h1>
+        <h3>ENTRADAS DE BOLSA DE SANGUE AO LONGO DO MÊS</h3>
+        <form>
+          <label>Mês de Referência:</label><br>
+          <select>
+            <option value="Janeiro">Janeiro</option>
+            <option value="Fevereiro">Fevereiro</option>
+            <option value="Março">Março</option>
+            <option value="Abril">Abril</option>
+            <option value="Maio">Maio</option>
+            <option value="Junho">Junho</option>
+            <option value="Julho">Julho</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Setembro">Setembro</option>
+            <option value="Outubro">Outubro</option>
+            <option value="Novembro">Novembro</option>
+          </select>
+        </form>
+      </div>
     </section>
     <section class="estatisticas">
-    <div class="box-est">
-      <p>🩸 Bolsas Tipo A+: <b>2</b></p>
-      <p>🩸 Bolsas Tipo A-: <b>3</b></p>
-      <p>🩸 Bolsas Tipo B+: <b>2</b></p>
-      <p>🩸 Bolsas Tipo B-: <b>3</b></p>
-      <p>🩸 Bolsas Tipo AB+: <b>2</b></p>
-      <p>🩸 Bolsas Tipo AB-: <b>3</b></p>
-      <p>🩸 Bolsas Tipo O+: <b>3</b></p>
-      <p>🩸 Bolsas Tipo O-: <b>3</b></p>
-      <br>
-    </div>
-  </section>
-</main>
+      <div class="box-est">
+        <p>🩸 Bolsas Tipo A+: <b>2</b></p>
+        <p>🩸 Bolsas Tipo A-: <b>3</b></p>
+        <p>🩸 Bolsas Tipo B+: <b>2</b></p>
+        <p>🩸 Bolsas Tipo B-: <b>3</b></p>
+        <p>🩸 Bolsas Tipo AB+: <b>2</b></p>
+        <p>🩸 Bolsas Tipo AB-: <b>3</b></p>
+        <p>🩸 Bolsas Tipo O+: <b>3</b></p>
+        <p>🩸 Bolsas Tipo O-: <b>3</b></p>
+        <br>
+      </div>
+    </section>
+  </main>
 
-<footer class="rodape">
-  <div class="rodape-conteudo">
-    <div class="rodape-bloco">
-      <img src="img/logo.png" alt="Logo" class="logo-footer">
-      <p><strong>Banco de Sangue Lins</strong><br>Preservando vidas através da doação.</p>
+  <footer class="rodape">
+    <div class="rodape-conteudo">
+      <div class="rodape-bloco">
+        <img src="img/logo.png" alt="Logo" class="logo-rodape">
+        <p><strong>Banco de Sangue Lins</strong><br>Preservando vidas através da doação.</p>
+      </div>
+      <div class="rodape-bloco">
+        <h4>Contato</h4>
+        <p>Telefone: (14) 3523-8424<br>Email: contato@bslins.org.br</p>
+        <h4>Endereço</h4>
+        <p>Rua: 9 de Julho, n°-745<br>Centro - Lins-SP</p>
+      </div>
+      <div class="rodape-bloco">
+        <h4>Links</h4>
+        <p><a href="doar.html">Como Doar</a><br><a href="contato.html">Contato</a><br><a
+            href="login.html">Login/Cadastrar</a></p>
+      </div>
     </div>
-    <div class="rodape-bloco">
-      <h4>Contato</h4>
-      <p>Telefone: (14) 3523-8424<br>Email: contato@bslins.org.br</p>
-      <h4>Endereço</h4>
-      <p>Rua: 9 de Julho, n°-745<br>Centro - Lins-SP</p>
+    <div class="copyright">
+      © 2025 Banco de Sangue Lins — Todos os direitos reservados.
     </div>
-    <div class="rodape-bloco">
-      <h4>Links</h4>
-      <p><a href="doar.html">Como Doar</a><br><a href="contato.html">Contato</a><br><a href="login.html">Login/Cadastrar</a></p>
-    </div>
-  </div>
-  <div class="copyright">
-    © 2025 Banco de Sangue Lins — Todos os direitos reservados.
-  </div>
-</footer>
+  </footer>
 
 </body>
+
 </html>

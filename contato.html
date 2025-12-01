@@ -1,108 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Banco de Sangue</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
-<div class="topo">
-    <div class="topo-esquerda">
+  <header>
+    <div class="topo">
+      <div class="topo-esquerda">
         <img src="img/logo.png" alt="Logo">
         <div class="topo-texto">
-            <h1>BANCO DE SANGUE LINS</h1>
+          <h1>BANCO DE SANGUE LINS</h1>
         </div>
-    </div>
+      </div>
 
-    <div class="topo-direita">
+      <div class="topo-direita">
         <input type="text" placeholder="O que você procura?">
-        
+
+      </div>
+      <input type="checkbox" id="menu2">
+      <label for="menu2" class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </label>
+      <div class="mobile-menu">
+        <a href="index.html">Início</a>
+        <a href="Noticias.html">Notícias</a>
+        <a href="estatisticas.html">Estatísticas</a>
+        <a href="estoque.html">Estoque</a>
+        <a href="contato.html">Contato</a>
+        <a href="doar.html">Como Doar</a>
+        <a href="login.html">Login/Cadastrar</a>
+      </div>
     </div>
-    <input type="checkbox" id="menu-toggle">
-    <label for="menu-toggle" class="hamburger">
-    <div></div>
-    <div></div>
-    <div></div>
-</label>
-<div class="mobile-menu">
-  <a href="index.html">Início</a>
-  <a href="Noticias.html">Notícias</a>
-  <a href="estatisticas.html">Estatísticas</a>
-  <a href="estoque.html">Estoque</a>
-  <a href="contato.html">Contato</a>
-  <a href="doar.html">Como Doar</a>
-  <a href="login.html">Login/Cadastrar</a>
-</div>
-</div>
 
-<div class="menu">
-  <a href="index.html">Início</a>
-  <a href="Noticias.html">Notícias</a>
-  <a href="estatisticas.html">Estatísticas</a>
-  <a href="estoque.html">Estoque</a>
-  <a href="contato.html">Contato</a>
-  <a href="doar.html">Como Doar</a>
-  <a href="login.html">Login/Cadastrar</a>
-</div>
-</header>
+    <div class="menu">
+      <a href="index.html">Início</a>
+      <a href="Noticias.html">Notícias</a>
+      <a href="estatisticas.html">Estatísticas</a>
+      <a href="estoque.html">Estoque</a>
+      <a href="contato.html">Contato</a>
+      <a href="doar.html">Como Doar</a>
+      <a href="login.html">Login/Cadastrar</a>
+    </div>
+  </header>
 
-<main class="conteudo-contato">
-  <section class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.8014208343884!2d-49.75846192472561!3d-21.671580880143505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be15005652388f%3A0x91486d289398ad9e!2sPosto%20de%20Coleta%20de%20Sangue%20de%20Lins!5e0!3m2!1spt-BR!2sbr!4v1763832584799!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <h3>CONTATOS</h3>
+  <main class="conteudo-contato">
+    <section class="mapa">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3707.8014208343884!2d-49.75846192472561!3d-21.671580880143505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94be15005652388f%3A0x91486d289398ad9e!2sPosto%20de%20Coleta%20de%20Sangue%20de%20Lins!5e0!3m2!1spt-BR!2sbr!4v1763832584799!5m2!1spt-BR!2sbr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <h3>CONTATOS</h3>
       <p>Telefone: (14) 3523-8424<br>Email: contato@bslins.org.br</p>
       <h3>ENDEREÇO</h3>
       <p>Rua: 9 de Julho, n°745<br>Centro - Lins-SP, 16400-110</p>
       <h3>REDES SOCIAS</h3>
-      <b><p>FACEBOOK</p></b><a href="https://www.facebook.com/people/Posto-de-Coleta-de-Sangue-Lins/61558684957469/" target="blank"> Posto de Coleta de Sangue</a>
-      <b><p>INSTAGRAM</p></b><a href="https://www.instagram.com/doesanguelins/profilecard/" target="blank">doesanguelins</a>
+      <b>
+        <p>FACEBOOK</p>
+      </b><a href="https://www.facebook.com/people/Posto-de-Coleta-de-Sangue-Lins/61558684957469/" target="blank"> Posto
+        de Coleta de Sangue</a>
+      <b>
+        <p>INSTAGRAM</p>
+      </b><a href="https://www.instagram.com/doesanguelins/profilecard/" target="blank">doesanguelins</a>
     </section>
-  <section class="form-contato">
-    <h3>Fale Conosco</h3>
-  <form action="/sugestoes" method="post">
-  <div>
-    <label for="name">Nome:</label>
-    <input type="text" id="name" />
-  </div>
-  <div>
-    <label for="mail">E-mail:</label>
-    <input type="email" id="mail" />
-  </div>
-  <div>
-    <label for="msg">Mensagem:</label>
-    <textarea id="msg"></textarea>
-  </div>
-  <div class="button">
-    <button type="submit">Enviar sua mensagem</button>
-  </div>
-</form>
-    </select><br><br>
-  </form>
-  </section>
-</main>
-<footer class="rodape">
-  <div class="rodape-conteudo">
-    <div class="rodape-bloco">
-      <img src="img/logo.png" alt="Logo" class="logo-footer">
-      <p><strong>Banco de Sangue Lins</strong><br>Preservando vidas através da doação.</p>
+    <section class="form-contato">
+      <h3>Fale Conosco</h3>
+      <form>
+        <div>
+          <label for="name">Nome:</label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="mail">E-mail:</label>
+          <input type="email" id="mail">
+        </div>
+        <div>
+          <label for="msg">Mensagem:</label>
+          <textarea id="msg"></textarea>
+        </div>
+        <div class="button">
+          <button type="submit">Enviar sua mensagem</button>
+        </div>
+      </form>
+      </select><br><br>
+      </form>
+    </section>
+  </main>
+  <footer class="rodape">
+    <div class="rodape-conteudo">
+      <div class="rodape-bloco">
+        <img src="img/logo.png" alt="Logo" class="logo-rodape">
+        <p><strong>Banco de Sangue Lins</strong><br>Preservando vidas através da doação.</p>
+      </div>
+      <div class="rodape-bloco">
+        <h4>Contato</h4>
+        <p>Telefone: (14) 3523-8424<br>Email: contato@bslins.org.br</p>
+        <h4>Endereço</h4>
+        <p>Rua: 9 de Julho, n°-745<br>Centro - Lins-SP</p>
+      </div>
+      <div class="rodape-bloco">
+        <h4>Links</h4>
+        <p><a href="doar.html">Como Doar</a><br><a href="contato.html">Contato</a><br><a
+            href="login.html">Login/Cadastrar</a></p>
+      </div>
     </div>
-    <div class="rodape-bloco">
-      <h4>Contato</h4>
-      <p>Telefone: (14) 3523-8424<br>Email: contato@bslins.org.br</p>
-      <h4>Endereço</h4>
-      <p>Rua: 9 de Julho, n°-745<br>Centro - Lins-SP</p>
+    <div class="copyright">
+      © 2025 Banco de Sangue Lins — Todos os direitos reservados.
     </div>
-    <div class="rodape-bloco">
-      <h4>Links</h4>
-      <p><a href="doar.html">Como Doar</a><br><a href="contato.html">Contato</a><br><a href="login.html">Login/Cadastrar</a></p>
-    </div>
-  </div>
-  <div class="copyright">
-    © 2025 Banco de Sangue Lins — Todos os direitos reservados.
-  </div>
-</footer>
+  </footer>
 
 </body>
+
 </html>
