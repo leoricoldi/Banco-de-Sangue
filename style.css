@@ -596,7 +596,7 @@ body {
 }
 
 /* RESPONSIVO */
-@media (max-width: 850px) {
+@media (max-width: 930px) {
   .menu {
     display: none;
   }
@@ -654,6 +654,9 @@ body {
   .rodape-conteudo {
     flex-direction: column;
     align-items: flex-start;
+    align-items: center;
+    text-align: center;
+    
   }
 }
 
@@ -697,6 +700,11 @@ body {
 
   .form-cadastro h1 {
     font-size: 26px;
+  }
+
+  .rodape-conteudo {
+    align-items: center;
+    text-align: center;
   }
 }
 
